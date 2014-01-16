@@ -2,7 +2,7 @@
 
 int main()
 {
-	int a, b, addition, subtraction, multiplication, devide;
+	int a, b, addition, subtraction, multiplication, devision;
 	
 	printf("Enter 2 integers\n");
 	scanf(" %i %i", &a, &b);
@@ -38,6 +38,15 @@ int main()
 		printf(" %i X %i = %i", a, b, multiplication);
 	}
 		
-		
+	printf("Division:  \n\n");
+	
+	if(a < b){
+		division = b / a;
+		printf(" %i / %i = %i", b, a, division);
+	}
+	else{
+		division = a / b;
+		printf(" %i / %i = %i", a, b, division);
+	}
 }
 	
